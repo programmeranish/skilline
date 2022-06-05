@@ -1,0 +1,46 @@
+@media screen and (min-width: 600px) {
+  .intro {
+    padding: 210px 120px 0px;
+  }
+
+  .cloud__software .card__container {
+    flex: 50%;
+  }
+  .cloud__software .card {
+    padding: 122px 18px 50px;
+    margin-top: 160px;
+  }
+  .skilline {
+    margin-top: 120px;
+  }
+  .skilline .card {
+    padding: 132px 154px 123px 154px;
+  }
+  .background-blue-ecllipse {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    right: 135px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  .orange-background-ecllipse {
+    position: absolute;
+    right: 305px;
+    bottom: 0px;
+    right: 290px;
+    z-index: -1;
+  }
+  .news-tag {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 486px) {
+  .navbar {
+    margin: 0px;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 20px;
+  }
+}

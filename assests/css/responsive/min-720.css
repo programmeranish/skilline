@@ -1,0 +1,37 @@
+@media screen and (min-width: 720px) {
+  .skilline .card {
+    margin-top: 135px;
+  }
+  .everything {
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .everything__detail {
+    width: 50%;
+  }
+  .everything .everything__image {
+    width: 50%;
+  }
+  .tools {
+    text-align: center;
+    justify-content: center;
+  }
+  .tools__details {
+    flex: 50%;
+  }
+  .tools img {
+    margin-top: 160px;
+  }
+  .management {
+  }
+  .management__detail {
+    max-width: 100%;
+  }
+  .management img {
+  }
+  .news-tag {
+    font-size: 14px;
+  }
+}

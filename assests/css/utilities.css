@@ -1,0 +1,47 @@
+.container {
+  width: 80.625%;
+  margin: auto;
+  max-width: 1920px;
+}
+.highlighted--text {
+  color: var(--primary-color);
+}
+.btn {
+  padding: 24px 38px 23px 37px;
+  border-radius: 80px;
+  white-space: nowrap;
+  height: fit-content;
+  width: fit-content;
+}
+.btn--primary {
+  color: white;
+  border: 1px solid #ffffff;
+}
+.btn--secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.common__section > h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  /* or 64px */
+
+  color: #2f327d;
+}
+.common__section > p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 180%;
+  /* or 40px */
+
+  letter-spacing: 0.02em;
+
+  color: #696984;
+  margin-top: 20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

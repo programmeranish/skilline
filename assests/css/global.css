@@ -1,0 +1,96 @@
+* {
+  font-family: "Poppins", "Nunito Sans";
+}
+body {
+  background-color: #f5f5f5;
+}
+
+:root {
+  --primary-color: #f48c06;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+@keyframes bounce {
+  0% {
+    position: absolute;
+    top: 0px;
+  }
+  100% {
+    position: relative;
+  }
+}
+.navbar__logo p {
+  animation-name: leftright;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+}
+.nav__lists li {
+  cursor: pointer;
+}
+.nav__lists li:hover {
+  color: brown;
+}
+
+.assisted-image img {
+  animation-name: bouncer-assisted;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.congratulation-image img {
+  animation-name: bouncer-congratulation;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.trusted__companies__lists img:hover {
+  transform: scale(2);
+}
+.card:hover {
+  border: 1px solid orange;
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+}
+@keyframes leftright {
+  0% {
+    width: 0%;
+    overflow: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bouncer-assisted {
+  0% {
+    top: 270px;
+  }
+  100% {
+    top: 285px;
+  }
+}
+@keyframes bouncer-congratulation {
+  0% {
+    top: 380px;
+  }
+  100% {
+    top: 400px;
+  }
+}
