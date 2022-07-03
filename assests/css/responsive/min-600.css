@@ -1,6 +1,7 @@
 @media screen and (min-width: 600px) {
   .intro {
-    padding: 210px 120px 0px;
+    padding: 30px 20px 0px;
+    /* padding: 210px 120px 0px; */
   }
 
   .cloud__software .card__container {
@@ -36,11 +37,63 @@
   }
 }
 @media screen and (max-width: 486px) {
-  .navbar {
+  /* .navbar {
     margin: 0px;
     flex-direction: column;
     align-items: flex-end;
 
     margin: 20px;
+  } */
+  .navbar {
+    margin: 0px 15px;
+  }
+  .intro {
+    padding: 30px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav__lists {
+    background-color: white;
+    width: 100%;
+  }
+  .nav__lists li {
+    text-align: center;
+  }
+  .card__container {
+    margin: 0px;
+  }
+  .cloud__software {
+    margin-top: 80px;
+  }
+  .cloud__software .card__container {
+    gap: 20px;
+  }
+  .skilline .card__container {
+    gap: 20px;
+  }
+  .everything {
+    margin-top: 40px;
+  }
+  .feature {
+    margin-top: 40px;
+  }
+  .tools h3 {
+    margin-top: 40px;
+  }
+  .quizzes {
+    margin-top: 50px;
+  }
+  .management__detail {
+    margin-top: 40px;
+  }
+  .management {
+    gap: 40px;
+  }
+  .discussion .discussion__detail {
+    margin-top: 40px;
+  }
+  .integration {
+    margin-top: 40px;
   }
 }

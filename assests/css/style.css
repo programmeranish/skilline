@@ -937,3 +937,7 @@ header .navbar__logo p {
   width: 30%;
   right: 50px;
 }
+
+.intro__detail {
+  padding: 10px;
+}
