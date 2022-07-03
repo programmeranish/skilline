@@ -67,10 +67,10 @@
     margin-top: 80px;
   }
   .cloud__software .card__container {
-    gap: 20px;
+    gap: 30px;
   }
   .skilline .card__container {
-    gap: 20px;
+    gap: 30px;
   }
   .everything {
     margin-top: 40px;
@@ -94,6 +94,9 @@
     margin-top: 40px;
   }
   .integration {
+    margin-top: 40px;
+  }
+  .testimonial {
     margin-top: 40px;
   }
 }
