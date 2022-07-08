@@ -1,6 +1,6 @@
 @media screen and (min-width: 720px) {
   .skilline .card {
-    margin-top: 135px;
+    margin-top: 50px;
   }
   .everything {
     margin-top: 160px;
@@ -27,7 +27,6 @@
   .management {
   }
   .management__detail {
-    max-width: 100%;
   }
   .management img {
   }

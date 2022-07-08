@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1445px) {
   .intro {
     justify-content: space-around;
   }
@@ -24,7 +24,7 @@
     position: absolute;
     top: 400px;
     opacity: 0.9;
-    left: 300px;
+    left: 260px;
     width: 60%;
   }
   .music-bar-image {
@@ -32,7 +32,6 @@
     top: 100px;
     left: 450px;
     opacity: 0.9;
-    width: 100%;
   }
   .trusted__companies__lists {
     gap: 57px;
